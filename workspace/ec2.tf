@@ -4,7 +4,7 @@ resource "aws_instance" "automate-instance" {
   
   instance_type = "t3.small"
   tags = {
-    Name = "automate-instance"
+    Name = "dev"
   }
 
   root_block_device {
